@@ -1,0 +1,89 @@
+﻿@using TG.UBP.Application.Dto.BaseManage.Permission;
+@model TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+
+@{
+    ViewBag.Title = "创建";
+    Layout = "~/Views/Shared/_Index_LayoutEdit.cshtml";
+    List<OperatePermDto> perm = null;
+}
+
+<script type="text/javascript">
+    $(function () {
+    $("#btnSave").click(function () {
+        if ($("form").valid()) {
+            $.ajax({
+                url: "@Url.Action("CreateColumnFilter")",
+                type: "Post",
+                data: $("form").serialize(),
+                dataType: "json",
+                success: function (data) {
+                    if (data.type == 1) {
+                        window.parent.frameReturnByMes(data.message);
+                        window.parent.frameReturnByReloadDataFilter(true);
+                        window.parent.frameReturnByClose()
+                    }
+                    else {
+                        window.parent.frameReturnByMes(data.message);
+                    }
+                }
+            });
+        }
+        return false;
+    });
+    $("#btnReturn").click(function () {
+        window.parent.frameReturnByClose();
+    });
+    });
+</script>
+<div class="mvctool bgb">
+@Html.ToolButton("btnSave", "fa fa-save", L("Save"), ref perm, "Save", true)
+@Html.ToolButton("btnReturn", "fa fa-reply", L("Reply"), false)
+</div>
+@using (Html.BeginForm())
+{
+             @Html.HiddenFor(model => model.Id)
+ <table class="formtable">
+    <tbody>
+        <tr>
+            <th>
+                @Html.LabelFor(model => model.ColumnCode)：
+           </th>
+          <td>
+                @Html.EditorFor(model => model.ColumnCode)
+            @Html.ValidationMessageFor(model => model.ColumnCode)</td>
+        </tr>
+        <tr>
+            <th>
+                @Html.LabelFor(model => model.ColumnName)：
+            </th>
+          <td>
+                @Html.EditorFor(model => model.ColumnName)
+            @Html.ValidationMessageFor(model => model.ColumnName)</td>
+        </tr>
+        <tr>
+            <th>
+                @Html.LabelFor(model => model.ModuleId)：
+           </th>
+          <td>
+                @Html.TextBoxFor(model => model.ModuleId, new { @readOnly = "readOnly" })
+            @Html.ValidationMessageFor(model => model.ModuleId)</td>
+        </tr>
+        <tr>
+            <th>
+                @Html.LabelFor(model => model.IsValid)：
+         </th>
+        <td>
+              @Html.SwitchButtonByEdit("IsValid", true)
+            @Html.ValidationMessageFor(model => model.IsValid)</td>
+        </tr>
+        <tr>
+            <th>
+                @Html.LabelFor(model => model.Sort)：
+          </th>
+          <td>
+                @Html.EditorFor(model => model.Sort)
+            @Html.ValidationMessageFor(model => model.Sort)</td>
+        </tr>
+    </tbody>
+</table>
+}

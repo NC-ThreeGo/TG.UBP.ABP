@@ -1,0 +1,509 @@
+DEBUG 2017-06-26 10:56:14,684 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,701 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,701 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,701 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,702 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,702 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,702 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,702 [268  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:14,707 [268  ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-06-26 10:56:14,928 [268  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:56:14,928 [268  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:56:14,928 [268  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:56:14,928 [268  ] o.Configuration.LanguageManagementConfig - Converted UBP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:56:15,517 [268  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:56:19,208 [268  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-26 10:56:19,217 [268  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-26 10:56:19,218 [268  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-26 10:56:19,228 [268  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-26 10:56:19,233 [268  ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-26 10:56:19,312 [268  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 10:56:20,595 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-06-26 10:56:20,595 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.TenantLoginInfoDto
+DEBUG 2017-06-26 10:56:20,599 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.UserLoginInfoDto
+DEBUG 2017-06-26 10:56:20,599 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.CreateUserInput
+DEBUG 2017-06-26 10:56:20,600 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.UserListDto
+DEBUG 2017-06-26 10:56:20,600 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-26 10:56:20,600 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-26 10:56:20,600 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-26 10:56:20,600 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-26 10:56:20,600 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.CreateTenantInput
+DEBUG 2017-06-26 10:56:20,600 [268  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.TenantListDto
+DEBUG 2017-06-26 10:56:20,858 [268  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-26 10:56:20,859 [268  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-26 10:56:20,860 [268  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-26 10:56:20,862 [268  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+DEBUG 2017-06-26 10:56:20,863 [268  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-26 10:56:39,909 [189  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 10:56:39,910 [189  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+WARN  2017-06-26 10:57:27,658 [213  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 10:57:27,659 [213  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+WARN  2017-06-26 10:58:00,251 [190  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 10:58:00,252 [190  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+DEBUG 2017-06-26 10:58:19,077 [226  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-26 10:58:19,079 [226  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 10:58:19,079 [226  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 10:58:19,079 [226  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-26 10:58:23,348 [285  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-26 10:58:24,320 [285  ] Abp.Modules.AbpModuleManager             - Found 20 ABP modules in total.
+DEBUG 2017-06-26 10:58:24,334 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.UbpWebModule, TG.UBP.Web_EasyUi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,338 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.Controllers.UbpWebControllerModule, TG.UBP.Web.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,339 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,339 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,339 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,340 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,340 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.EF.UbpEFModule, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,341 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,341 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,342 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Core.UbpCoreModule, TG.UBP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,342 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Core.UbpDomainCoreModule, TG.UBP.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,342 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,343 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,343 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,344 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,344 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,344 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,345 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,345 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,345 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:24,352 [285  ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-06-26 10:58:25,545 [285  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:58:25,545 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:58:25,545 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:58:25,545 [285  ] o.Configuration.LanguageManagementConfig - Converted UBP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:58:25,954 [285  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:58:27,684 [285  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-26 10:58:27,697 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-26 10:58:27,699 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-26 10:58:27,707 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-26 10:58:27,716 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-26 10:58:27,810 [285  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 10:58:29,222 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-06-26 10:58:29,222 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.TenantLoginInfoDto
+DEBUG 2017-06-26 10:58:29,227 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.UserLoginInfoDto
+DEBUG 2017-06-26 10:58:29,227 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.CreateUserInput
+DEBUG 2017-06-26 10:58:29,228 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.UserListDto
+DEBUG 2017-06-26 10:58:29,228 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-26 10:58:29,228 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-26 10:58:29,228 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-26 10:58:29,228 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-26 10:58:29,228 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.CreateTenantInput
+DEBUG 2017-06-26 10:58:29,229 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.TenantListDto
+DEBUG 2017-06-26 10:58:29,517 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-26 10:58:29,518 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-26 10:58:29,519 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-26 10:58:29,521 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+DEBUG 2017-06-26 10:58:29,522 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-26 10:58:41,797 [290  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 10:58:41,798 [290  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+DEBUG 2017-06-26 10:59:39,916 [290  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-26 10:59:39,918 [290  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 10:59:39,919 [290  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 10:59:39,919 [290  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-26 10:59:43,983 [64   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-26 10:59:44,820 [64   ] Abp.Modules.AbpModuleManager             - Found 20 ABP modules in total.
+DEBUG 2017-06-26 10:59:44,833 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.UbpWebModule, TG.UBP.Web_EasyUi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,834 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.Controllers.UbpWebControllerModule, TG.UBP.Web.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,834 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,835 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,835 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,835 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,835 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.EF.UbpEFModule, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,836 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,836 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,837 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Core.UbpCoreModule, TG.UBP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,837 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Core.UbpDomainCoreModule, TG.UBP.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,838 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,838 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,838 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,838 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,839 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,839 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,839 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,839 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,840 [64   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:44,845 [64   ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-06-26 10:59:45,953 [64   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:59:45,953 [64   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:59:45,953 [64   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:59:45,953 [64   ] o.Configuration.LanguageManagementConfig - Converted UBP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 10:59:46,427 [64   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 10:59:49,678 [64   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-26 10:59:49,692 [64   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-26 10:59:49,694 [64   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-26 10:59:49,709 [64   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-26 10:59:49,718 [64   ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-26 10:59:49,824 [64   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 10:59:51,447 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-06-26 10:59:51,447 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.TenantLoginInfoDto
+DEBUG 2017-06-26 10:59:51,453 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.UserLoginInfoDto
+DEBUG 2017-06-26 10:59:51,453 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.CreateUserInput
+DEBUG 2017-06-26 10:59:51,453 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.UserListDto
+DEBUG 2017-06-26 10:59:51,454 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-26 10:59:51,454 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-26 10:59:51,454 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-26 10:59:51,454 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-26 10:59:51,454 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.CreateTenantInput
+DEBUG 2017-06-26 10:59:51,454 [64   ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.TenantListDto
+DEBUG 2017-06-26 10:59:51,737 [64   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-26 10:59:51,739 [64   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-26 10:59:51,741 [64   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-26 10:59:51,743 [64   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+DEBUG 2017-06-26 10:59:51,745 [64   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-26 11:00:41,634 [253  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:00:41,635 [253  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+DEBUG 2017-06-26 11:03:22,806 [215  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-26 11:03:22,808 [215  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:03:22,810 [215  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:03:22,810 [215  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-26 11:03:27,392 [285  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-26 11:03:28,280 [285  ] Abp.Modules.AbpModuleManager             - Found 20 ABP modules in total.
+DEBUG 2017-06-26 11:03:28,292 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.UbpWebModule, TG.UBP.Web_EasyUi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,293 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.Controllers.UbpWebControllerModule, TG.UBP.Web.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,293 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,293 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,294 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,294 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,294 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.EF.UbpEFModule, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,295 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,296 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,296 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Core.UbpCoreModule, TG.UBP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,297 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Core.UbpDomainCoreModule, TG.UBP.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,297 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,297 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,298 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,298 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,298 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,299 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,299 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,299 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,300 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:28,306 [285  ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-06-26 11:03:29,587 [285  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:03:29,587 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:03:29,587 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:03:29,587 [285  ] o.Configuration.LanguageManagementConfig - Converted UBP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:03:30,136 [285  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:03:32,404 [285  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-26 11:03:32,406 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-26 11:03:32,407 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-26 11:03:32,411 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-26 11:03:32,417 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-26 11:03:32,490 [285  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:03:33,950 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-06-26 11:03:33,950 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.TenantLoginInfoDto
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.UserLoginInfoDto
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.CreateUserInput
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.UserListDto
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.CreateTenantInput
+DEBUG 2017-06-26 11:03:33,951 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.TenantListDto
+DEBUG 2017-06-26 11:03:34,092 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-26 11:03:34,095 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-26 11:03:34,097 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-26 11:03:34,099 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+DEBUG 2017-06-26 11:03:34,101 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-06-26 11:04:06,816 [253  ] TG.UBP.Web.Controllers.HomeController    - e:\ZqpPrg\三行统一业务平台（TG.UBP）\TG.UBP.ABP\Source\Repos_NC-ThreeGo\TG.UBP.ABP\src\04-展现层\TG.UBP.Web（EasyUi）\Views\Home\Index.cshtml(21): error CS0103: 当前上下文中不存在名称“info”
+System.Web.HttpCompileException (0x80004005): e:\ZqpPrg\三行统一业务平台（TG.UBP）\TG.UBP.ABP\Source\Repos_NC-ThreeGo\TG.UBP.ABP\src\04-展现层\TG.UBP.Web（EasyUi）\Views\Home\Index.cshtml(21): error CS0103: 当前上下文中不存在名称“info”
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-06-26 11:04:56,829 [261  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-26 11:04:56,831 [261  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:04:56,833 [261  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:04:56,833 [261  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-26 11:05:00,916 [285  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-26 11:05:01,699 [285  ] Abp.Modules.AbpModuleManager             - Found 20 ABP modules in total.
+DEBUG 2017-06-26 11:05:01,710 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.UbpWebModule, TG.UBP.Web_EasyUi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,710 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.Controllers.UbpWebControllerModule, TG.UBP.Web.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,711 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,711 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,711 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,712 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,712 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.EF.UbpEFModule, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,713 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,714 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,714 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Core.UbpCoreModule, TG.UBP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,714 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Core.UbpDomainCoreModule, TG.UBP.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,714 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,715 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,715 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,715 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,716 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,716 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,716 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,717 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,717 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:01,723 [285  ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-06-26 11:05:02,898 [285  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:05:02,898 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:05:02,898 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:05:02,898 [285  ] o.Configuration.LanguageManagementConfig - Converted UBP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:05:03,407 [285  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:05:05,680 [285  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-26 11:05:05,684 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-26 11:05:05,686 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-26 11:05:05,690 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-26 11:05:05,697 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-26 11:05:05,772 [285  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:05:07,138 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-06-26 11:05:07,138 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.TenantLoginInfoDto
+DEBUG 2017-06-26 11:05:07,138 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.UserLoginInfoDto
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.CreateUserInput
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.UserListDto
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.CreateTenantInput
+DEBUG 2017-06-26 11:05:07,139 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.TenantListDto
+DEBUG 2017-06-26 11:05:07,283 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-26 11:05:07,285 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-26 11:05:07,287 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-26 11:05:07,289 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+DEBUG 2017-06-26 11:05:07,292 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-26 11:05:24,010 [260  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:05:24,011 [260  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+WARN  2017-06-26 11:09:14,535 [246  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:09:14,536 [246  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+WARN  2017-06-26 11:09:21,038 [215  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:09:21,039 [215  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+DEBUG 2017-06-26 11:09:42,030 [222  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-26 11:09:42,032 [222  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:09:42,032 [222  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:09:42,032 [222  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-26 11:09:45,334 [285  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-26 11:09:46,141 [285  ] Abp.Modules.AbpModuleManager             - Found 20 ABP modules in total.
+DEBUG 2017-06-26 11:09:46,152 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.UbpWebModule, TG.UBP.Web_EasyUi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,152 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.Controllers.UbpWebControllerModule, TG.UBP.Web.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,153 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,153 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,153 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,153 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,154 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.EF.UbpEFModule, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,154 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,155 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,155 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Core.UbpCoreModule, TG.UBP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,155 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Core.UbpDomainCoreModule, TG.UBP.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,155 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,156 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,156 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,156 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,156 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,157 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,157 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,157 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,157 [285  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:46,163 [285  ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-06-26 11:09:47,261 [285  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:09:47,261 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:09:47,261 [285  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:09:47,261 [285  ] o.Configuration.LanguageManagementConfig - Converted UBP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:09:47,672 [285  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:09:49,272 [285  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-26 11:09:49,281 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-26 11:09:49,282 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-26 11:09:49,288 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-26 11:09:49,294 [285  ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-26 11:09:49,376 [285  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:09:50,716 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-06-26 11:09:50,716 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.TenantLoginInfoDto
+DEBUG 2017-06-26 11:09:50,724 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.UserLoginInfoDto
+DEBUG 2017-06-26 11:09:50,724 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.CreateUserInput
+DEBUG 2017-06-26 11:09:50,725 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.UserListDto
+DEBUG 2017-06-26 11:09:50,725 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-26 11:09:50,725 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-26 11:09:50,725 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-26 11:09:50,725 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-26 11:09:50,725 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.CreateTenantInput
+DEBUG 2017-06-26 11:09:50,726 [285  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.TenantListDto
+DEBUG 2017-06-26 11:09:50,996 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-26 11:09:50,997 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-26 11:09:50,998 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-26 11:09:51,000 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+DEBUG 2017-06-26 11:09:51,002 [285  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-26 11:10:05,662 [215  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:10:05,664 [215  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+WARN  2017-06-26 11:10:37,526 [61   ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:10:37,527 [61   ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+DEBUG 2017-06-26 11:13:47,361 [224  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-06-26 11:13:47,362 [224  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:13:47,363 [224  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:13:47,363 [224  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-06-26 11:13:50,476 [191  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-26 11:13:51,270 [191  ] Abp.Modules.AbpModuleManager             - Found 20 ABP modules in total.
+DEBUG 2017-06-26 11:13:51,281 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.UbpWebModule, TG.UBP.Web_EasyUi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,282 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.Controllers.UbpWebControllerModule, TG.UBP.Web.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,282 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,282 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,282 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,283 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,283 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.EF.UbpEFModule, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,284 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,284 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,285 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Core.UbpCoreModule, TG.UBP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,285 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Core.UbpDomainCoreModule, TG.UBP.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,285 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,286 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,286 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,286 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,287 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,287 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,287 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,288 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,288 [191  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:51,293 [191  ] Abp.Modules.AbpModuleManager             - 20 modules loaded.
+DEBUG 2017-06-26 11:13:52,336 [191  ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:13:52,337 [191  ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:13:52,337 [191  ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:13:52,337 [191  ] o.Configuration.LanguageManagementConfig - Converted UBP (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-06-26 11:13:52,804 [191  ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-26 11:13:55,812 [191  ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-06-26 11:13:55,823 [191  ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-26 11:13:55,825 [191  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-26 11:13:55,837 [191  ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-06-26 11:13:55,843 [191  ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-26 11:13:55,913 [191  ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-26 11:13:57,201 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-06-26 11:13:57,201 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.TenantLoginInfoDto
+DEBUG 2017-06-26 11:13:57,206 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Sessions.UserLoginInfoDto
+DEBUG 2017-06-26 11:13:57,207 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.CreateUserInput
+DEBUG 2017-06-26 11:13:57,207 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Users.UserListDto
+DEBUG 2017-06-26 11:13:57,207 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-26 11:13:57,207 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-26 11:13:57,207 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-26 11:13:57,207 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-26 11:13:57,207 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.CreateTenantInput
+DEBUG 2017-06-26 11:13:57,208 [191  ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.MultiTenancy.TenantListDto
+DEBUG 2017-06-26 11:13:57,458 [191  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-06-26 11:13:57,460 [191  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-06-26 11:13:57,462 [191  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-06-26 11:13:57,463 [191  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+DEBUG 2017-06-26 11:13:57,464 [191  ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-06-26 11:14:21,407 [273  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:14:21,408 [273  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+WARN  2017-06-26 11:15:00,754 [235  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:15:00,754 [235  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+WARN  2017-06-26 11:15:29,274 [241  ] naries.DictionaryBasedLocalizationSource - Can not find 'Accordion' in localization source 'UBP'!
+WARN  2017-06-26 11:15:29,275 [241  ] naries.DictionaryBasedLocalizationSource - Can not find 'Tree' in localization source 'UBP'!
+DEBUG 2017-06-27 00:36:16,616 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-06-27 00:36:16,631 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.UbpWebModule, TG.UBP.Web_EasyUi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Web.Controllers.UbpWebControllerModule, TG.UBP.Web.Controllers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.EF.UbpEFModule, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Core.UbpCoreModule, TG.UBP.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Core.UbpDomainCoreModule, TG.UBP.Domain.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Domain.Entity.UbpDomainEntityModule, TG.UBP.Domain.Entity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationServiceModule, TG.UBP.Application.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.Application.Service.UbpApplicationDtoModule, TG.UBP.Application.Dto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: TG.UBP.WebApi.UbpWebApiModule, TG.UBP.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:16,647 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2017-06-27 00:36:17,053 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: TG.UBP.EF.UbpDbContext, TG.UBP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-06-27 00:36:18,538 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-06-27 00:36:18,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-06-27 00:36:18,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-06-27 00:36:18,553 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: UBP
+DEBUG 2017-06-27 00:36:18,772 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-06-27 00:36:18,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes define auto mapping attributes
+DEBUG 2017-06-27 00:36:18,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.CreateModuleInput
+DEBUG 2017-06-27 00:36:18,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleListDto
+DEBUG 2017-06-27 00:36:18,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleColumnFilterDto
+DEBUG 2017-06-27 00:36:18,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - TG.UBP.Application.Dto.BaseManage.Permission.Modules.ModuleOperateDto
+DEBUG 2017-06-27 00:36:19,116 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'TG.UBP.Application.Service.BaseManage.Permission.Modules.IModuleAppService' with service name 'app/module'.
+INFO  2017-06-27 00:36:19,772 [11   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: TG.UBP.Web.Controllers.HomeController.Index is executed by an anonymous user in 53 ms from 127.0.0.1 IP address with succeed.
+INFO  2017-06-27 00:36:19,881 [11   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: TG.UBP.Web.Controllers.AccountController.Index is executed by an anonymous user in 25 ms from 127.0.0.1 IP address with succeed.
+ERROR 2017-06-27 00:36:23,819 [11   ] TG.UBP.Web.Controllers.AccountController - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> Abp.AbpException: No language defined in this application.
+   在 Abp.Localization.LanguageManager.GetCurrentLanguage()
+   在 Abp.Localization.LanguageManager.get_CurrentLanguage()
+   在 TG.UBP.Web.Controllers.LayoutController.LanguageSelection() 位置 E:\ZqpPrg\三行统一业务平台（TG.UBP）\TG.UBP.ABP\Source\Repos_NC-ThreeGo\TG.UBP.ABP\src\04-展现层\TG.UBP.Web.Controllers\Controllers\LayoutController.cs:行号 39
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   在 ASP._Page_Views_Account_Index_cshtml.Execute() 位置 e:\ZqpPrg\三行统一业务平台（TG.UBP）\TG.UBP.ABP\Source\Repos_NC-ThreeGo\TG.UBP.ABP\src\04-展现层\TG.UBP.Web（EasyUi）\Views\Account\Index.cshtml:行号 152
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
